@@ -1,0 +1,30 @@
+.modal-box-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 150px;
+    background-color: #fff; /* background.paper equivalent */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.24); /* Adjusted for boxShadow 24 */
+    padding-top: 20px; /* pt: 2 equivalent */
+    padding-left: 32px; /* px: 4 equivalent */
+    padding-right: 32px; /* px: 4 equivalent */
+    padding-bottom: 50px; /* pb: 3 equivalent */
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 14px;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+

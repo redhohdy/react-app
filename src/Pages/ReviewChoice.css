@@ -1,0 +1,86 @@
+.modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 400px;
+    background-color: #fff; /* background.paper equivalent */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.24); /* Adjusted for boxShadow 24 */
+    padding-top: 22px;
+    padding-left: 32px; /* px: 4 equivalent */
+    padding-right: 32px; /* px: 4 equivalent */
+    padding-bottom: 24px; /* pb: 3 equivalent */
+}
+
+h2 {
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#page1 p {
+    padding-bottom: 0px;
+    font-family: 'Inter';
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.box {
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+ /* Custom scrollbar styles */
+        .box::-webkit-scrollbar {
+            width: 10px; /* Lebar scroll bar */
+        }
+        
+        .box::-webkit-scrollbar-track {
+            background: #f1f1f1; /* Warna track scroll bar */
+        }
+        
+        .box::-webkit-scrollbar-thumb {
+            background: #bebdbd; /* Warna thumb scroll bar */
+            border-radius: 5px; /* Membuat scroll bar bulat */
+        }
+        
+        .box::-webkit-scrollbar-thumb:hover {
+            background: #949393; /* Warna thumb scroll bar saat di-hover */
+        }
+
+
+.box1 {
+    height: 230px;
+    margin-left: 50px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 2px solid #004ABA;
+    background-color: rgb(255, 255, 255);
+}
+.box2 {
+    height: 230px;
+    margin-left: 5px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 2px solid #004ABA;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: disc; 
+    padding-left: 20px; /* Indentasi list */
+}
+li {
+    margin-bottom: 0px; /* Jarak antar item list */
+}
+
+

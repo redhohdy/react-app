@@ -1,0 +1,85 @@
+.modal-box-success {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 150px;
+    background-color: #fff; /* background.paper equivalent */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.24); /* Adjusted for boxShadow 24 */
+    padding-top: 20px; /* pt: 2 equivalent */
+    padding-left: 32px; /* px: 4 equivalent */
+    padding-right: 32px; /* px: 4 equivalent */
+    padding-bottom: 50px; /* pb: 3 equivalent */
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-size: 15px;
+}
+
+#page4 p {
+    font-family: 'Inter';
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+.button-1 {
+    background-color: #000000;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #1b1b19;
+  }
+
+  .button-4 {
+    padding: 11px 16px;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    width: 220px;
+    font-weight: 550;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 5px;
+    font-family: 'Inter';
+    left: 50px;
+}
+
+.button-4:hover,
+.button-4:focus {
+  background-color: #1b1b19;
+}
